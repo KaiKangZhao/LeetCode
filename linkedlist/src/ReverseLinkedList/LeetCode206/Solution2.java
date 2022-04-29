@@ -10,7 +10,7 @@ import removeElements.LeetCode203.ListNode;
 //递归
 public class Solution2 {
     public ListNode reverseList(ListNode head) {
-        return reverse(null,head);
+        return reverse(null, head);
     }
 
     ListNode reverse(ListNode prev, ListNode cur) {

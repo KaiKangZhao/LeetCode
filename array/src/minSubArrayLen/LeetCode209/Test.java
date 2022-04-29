@@ -15,12 +15,12 @@ public class Test {
                 sum += nums[j];
                 if (sum >= target) {
                     subLength = j - i + 1;
-                    result= result<subLength?result:subLength;
+                    result = result < subLength ? result : subLength;
                     break;
                 }
             }
         }
-        return result==Integer.MAX_VALUE?0:result;
+        return result == Integer.MAX_VALUE ? 0 : result;
     }
 
     public static void main(String[] args) {

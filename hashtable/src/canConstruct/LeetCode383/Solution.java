@@ -27,7 +27,7 @@ class Solution {
         for (int i = 0; i < ransomNote.length(); i++) {
             if (map.containsKey(String.valueOf(ransomNote.charAt(i)))) { //字母用一次减少一次
                 if (map.get(String.valueOf(ransomNote.charAt(i))) > 0) {
-                    map.put(String.valueOf(ransomNote.charAt(i)),map.get(String.valueOf(ransomNote.charAt(i)))-1);
+                    map.put(String.valueOf(ransomNote.charAt(i)), map.get(String.valueOf(ransomNote.charAt(i))) - 1);
                 } else {  //字母用完了
                     return false;
                 }

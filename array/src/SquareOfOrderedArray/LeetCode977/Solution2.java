@@ -29,6 +29,7 @@ public class Solution2 {
         }
         return array;
     }
+
     public static void main(String[] args) {
         int[] a = {7, -3, 2, 3, 11};
         Solution2 solution = new Solution2();

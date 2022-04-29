@@ -21,7 +21,7 @@ public class Test {
                 index++;
             }
             up++;
-            for (int i = up; i <= down ; i++) {
+            for (int i = up; i <= down; i++) {
                 list.add(matrix[i][right]);
                 index++;
             }

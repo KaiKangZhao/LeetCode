@@ -34,7 +34,7 @@ class Solution {
             record[s2[i] - 'a'] -= 1;
         }
         for (int i = 0; i < record.length; i++) {
-            if (record[i]!=0){
+            if (record[i] != 0) {
                 return false;
             }
         }

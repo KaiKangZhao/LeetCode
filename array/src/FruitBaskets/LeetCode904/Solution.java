@@ -20,8 +20,8 @@ import java.util.HashMap;
 
 /**
  * 思路 : 滑动窗口的思路，两个指针循环，找到包含最大子序列的种类的窗口即可
- *  如何判断子序列类型的个数?
- *  设计一个hashmap k-种类 v-数量 map的大小即为种类的个数
+ * 如何判断子序列类型的个数?
+ * 设计一个hashmap k-种类 v-数量 map的大小即为种类的个数
  */
 class Solution {
     public int totalFruit(int[] fruits) {
