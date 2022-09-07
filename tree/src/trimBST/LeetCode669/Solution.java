@@ -30,14 +30,14 @@ class TreeNode {
  */
 class Solution {
     public TreeNode trimBST(TreeNode root, int low, int high) {
-        if (root == null ) {
+        if (root == null) {
             return null;
         }
-        if (root.val<low) {
+        if (root.val < low) {
             // 寻找符合区间[low, high]的节点
             return trimBST(root.right, low, high);
         }
-        if (root.val>high) {
+        if (root.val > high) {
             // 寻找符合区间[low, high]的节点
             return trimBST(root.left, low, high);
         }
