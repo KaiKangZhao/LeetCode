@@ -24,14 +24,22 @@ public class Solution2 {
     }
 
     void backtrack(int n, int k, int startIndex) {
-        if (path.size()==k){
+        if (path.size() == k) {
             result.add(new ArrayList<>(path));
             return;
         }
-        for (int i = startIndex; i <=n-(k- path.size())+1; i++) {
+        for (int i = startIndex; i <= n - (k - path.size()) + 1; i++) {
             path.add(i);
-            backtrack(n, k, i+1);
+            backtrack(n, k, i + 1);
             path.removeLast();
         }
+    }
+
+    public static void main(String[] args) {
+        Solution2 solution2 = new Solution2();
+        int n = 4;
+        int k = 2;
+        List<List<Integer>> result = solution2.combine(n, k);
+        System.out.println(result);
     }
 }
