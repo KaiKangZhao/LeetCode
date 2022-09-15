@@ -47,6 +47,7 @@ class Solution {
                 break;
             }
         }
+        System.out.println("....");
     }
 
     // 判断字符串s在左闭右闭区间[start, end]所组成的数字是否合法
