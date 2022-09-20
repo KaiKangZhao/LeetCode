@@ -1,4 +1,4 @@
-package subsetsWithDup.subsets.LeetCode78;
+package subsets.LeetCode78;
 
 import java.util.ArrayList;
 import java.util.Deque;
